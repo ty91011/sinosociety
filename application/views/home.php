@@ -1,5 +1,4 @@
 
-
   <!-- Header -->
   <div class="row">
     <div class="large-12 columns">
@@ -47,24 +46,25 @@
     <div class="large-4 columns">
  			<h4>Listing Service</h4>
  			<img src="/img/listing.png" />
- 			<p>Have a property to sell / rent?</p>
-			<p>Thousands of Chinese investors look through our listings looking for investment opportunities.</p>
-			<h6>Recommended for: Home Sellers, Listing Agents, Developers, and Regional Centers</h6>
+ 			<p>FOR SALE OR FOR RENT</p>
+			<p>We list and market your real estate listings in all Asian countries and cities where Chinese is the primary language.</p>
+			<h6>Recommended For: Home Sellers, Real Estate Agents, Developers, Landlords, and other industry professionals.</h6>
 			<a href="#" class="small button  round " data-reveal-id="freeAcct">Get Started</a>
     </div>
 		<div class="large-4 columns">
-			<h4>Banner Advertisements</h4>
+		/*	<h4>Banner Advertisements</h4>
 			<img src="/img/banner.png" />
 			<p>Looking for that extra exposure?</p>
 			<p>Considering a custom Banner Advertisement to Marketing your property, project, or professional service.</p>
 			<h6>Recommended for: All Real Estate related professionals and Eb-5 Projects</h6>
 			<a href="#" class="small button  round " data-reveal-id="freeAcct">Get Started</a>
+		*/
 		</div>
 		<div class="large-4 columns">
 			<h4>Professional Service Ads</h4>
 			<img src="/img/professional.png" />
 			<p>Just want to Market yourself and your professional Services?</p>
-			<p>Not only do our Chinese investors look for properties on our site, they also look for professionals in the industry to assist them with all their real estate needs.</p>
+			<p>Chinese property buyers are constantly seeking all types of real estate professionals to assist them with all aspects of their real estate needs.</p>
 			<h6>Recommended for: Real Estate Agents, Escrow Agents, Home Inspectors, Title Agents, Property Managers, Loan Agents, Attorneys, Contractors, Designers, Architects, Appraisers, Stager and other real estate professionals</h6>
 			<a href="#" class="small button  round " data-reveal-id="freeAcct">Get Started</a>
 		</div>
