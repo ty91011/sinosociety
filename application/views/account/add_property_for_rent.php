@@ -188,7 +188,7 @@
 							<h2><small>Your fees so far:</small> $0.00</h2>
 						</div>
 						<div class="large-6 columns">
-              <a href="#" class="large button round">Review &amp; Post</a>
+              <a href="/account/property_preview" class="large button round">Review &amp; Post</a>
 						</div>
 					</div>
 

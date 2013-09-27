@@ -180,17 +180,20 @@
 					</div>
 
 				</fieldset>
-
+</form>
 					<div class="row">
 						<div class="large-6 columns text-right">
 							<h2><small>Your fees so far:</small> $<span id="total">0.00</span></h2>
 						</div>
 						<div class="large-6 columns">
-              <a href="#" class="large button round">Review &amp; Post</a>
+						    <form method="post" action="/account/property_preview" id="form2">
+							<input type='hidden' name='cost' id='cost'>
+              <a href="#" onclick=" $('#form2').submit(); return false;" class="large button round">Review &amp; Post</a><input type='submit'>
+						    </form>
 						</div>
 					</div>
 
-			</form>
+			
 		
 		</div>
 	</div>

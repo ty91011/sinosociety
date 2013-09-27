@@ -55,9 +55,11 @@
 							<li class="has-dropdown"><a href="#">Search Listings</a></li>
 							<li><a href="/account/add_property_for_sale">Add Listing</a></li>
 							<li class="divider"></li>
+							<!--
 							<li><label>EB-5 Projects</label></li>
 							<li><a href="#">Search Projects</a></li>
 							<li><a href="/account/add_project">Add Project</a></li>
+							-->
 							<li class="divider"></li>
 							<li><label>Marketing</label></li>
 							<li><a href="#">Chinese Market</a></li>

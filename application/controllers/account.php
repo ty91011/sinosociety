@@ -182,6 +182,22 @@ class Account extends CI_Controller
 	$this->load->view("templates/footer", $data);	
     }
     
+    public function property_preview()
+    {
+	$data = array();
+	$this->load->view("templates/header", $data);
+	$this->load->view("account/property_preview", $data);
+	$this->load->view("templates/footer", $data);
+    }
+    
+    public function complete_property()
+    {
+	$data = array();
+	$this->load->view("templates/header", $data);
+	$this->load->view("account/complete_property", $data);
+	$this->load->view("templates/footer", $data);	
+    }
+    
     public function confirm_add_property_action()
     {
 	$property_id = $this->Property_Model->add($this->session->userdata("listing"));
@@ -199,12 +215,22 @@ class Account extends CI_Controller
     
     public function listings()
     {
-	$data['properties'] = $this->Property_Model->get_properties();
+	$user_id = $this->session->userdata("user_id");
+	$data['properties'] = $this->Property_Model->get_self_properties($user_id);
 	
 	$this->load->view("templates/header", $data);
 	$this->load->view("account/listings", $data);
 	$this->load->view("templates/footer", $data);	
     }
+    
+    public function listings_full()
+    {
+	$data = array();
+	$this->load->view("templates/header", $data);
+	$this->load->view("account/add_property_for_sale", $data);
+	$this->load->view("templates/footer", $data);		
+    }
+
 }
 
 ?>

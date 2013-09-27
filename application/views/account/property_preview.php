@@ -8,7 +8,8 @@
 
 <div class="row">
 <center>
-    <a href="/account/complete_property" class="large button round">Post Property</a>
+
+    <a href="/account/pay_property" class="large button round">Post Property</a>
     <br>
     <img style="align: center" src="/img/placeholder.png">
 </center>
