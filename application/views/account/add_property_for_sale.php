@@ -188,7 +188,7 @@
 						<div class="large-6 columns">
 						    <form method="post" action="/account/property_preview" id="form2">
 							<input type='hidden' name='cost' id='cost'>
-              <a href="#" onclick=" $('#form2').submit(); return false;" class="large button round">Review &amp; Post</a><input type='submit'>
+              <a  href="#" onclick="$('#cost').val($('#total').html()); $('#form2').submit(); return false;" class="large button round">Review &amp; Post</a>
 						    </form>
 						</div>
 					</div>

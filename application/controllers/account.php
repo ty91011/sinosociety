@@ -184,7 +184,8 @@ class Account extends CI_Controller
     
     public function property_preview()
     {
-	$data = array();
+	$cost = $this->input->post("cost");
+	$data = array("cost" => $cost);
 	$this->load->view("templates/header", $data);
 	$this->load->view("account/property_preview", $data);
 	$this->load->view("templates/footer", $data);
@@ -195,6 +196,24 @@ class Account extends CI_Controller
 	$data = array();
 	$this->load->view("templates/header", $data);
 	$this->load->view("account/complete_property", $data);
+	$this->load->view("templates/footer", $data);	
+    }
+    
+    public function pay_property()
+    {
+	$cost = $this->input->post("cost");
+	$data = array("cost" => $cost);
+
+	if($cost == "0.00")
+	{
+	    $this->load->view("templates/header", $data);
+	    $this->load->view("account/complete_property", $data);
+	    $this->load->view("templates/footer", $data);
+	    return;
+	}
+	
+	$this->load->view("templates/header", $data);
+	$this->load->view("account/pay_property", $data);
 	$this->load->view("templates/footer", $data);	
     }
     
@@ -230,7 +249,21 @@ class Account extends CI_Controller
 	$this->load->view("account/add_property_for_sale", $data);
 	$this->load->view("templates/footer", $data);		
     }
-
+    public function submit_advertisement()
+    {
+	$data = array();
+	$this->load->view("templates/header", $data);
+	$this->load->view("account/submit_advertisement", $data);
+	$this->load->view("templates/footer", $data);		
+    }
+    
+        public function payment()
+    {
+	$data = array();
+	$this->load->view("templates/header", $data);
+	$this->load->view("account/payment", $data);
+	$this->load->view("templates/footer", $data);		
+    }
 }
 
 ?>

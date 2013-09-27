@@ -31,7 +31,7 @@
 	<a href="/account/listings" class="button round ">Current Listings / Advertisements</a>
     </div>
     <div class="large-6 columns text-center">
-	<a href="/buyers/search" class="button round ">Search Buyers</a>
+	<a href="/buyers/" class="button round ">Search Buyers</a>
     </div>
 </div>
 
@@ -53,7 +53,7 @@
 	<p>Just want to Market yourself and your professional Services?</p>
 	<p>Chinese property buyers are constantly seeking all types of real estate professionals to assist them with all aspects of their real estate needs.</p>
 	<h6>Recommended for: Real Estate Agents, Escrow Agents, Home Inspectors, Title Agents, Property Managers, Loan Agents, Attorneys, Contractors, Designers, Architects, Appraisers, Stager and other real estate professionals</h6>
-	<a href="#" class="small button  round">Submit a Professional Advertisement</a>
+	<a href="/account/submit_advertisement" class="small button  round">Submit a Professional Advertisement</a>
     </div>
 </div>
 

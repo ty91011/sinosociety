@@ -52,7 +52,7 @@
 								</ul>
 							</li>
 							-->
-							<li class="has-dropdown"><a href="#">Search Listings</a></li>
+							<li class="has-dropdown"><a href="/account/listings">Search Listings</a></li>
 							<li><a href="/account/add_property_for_sale">Add Listing</a></li>
 							<li class="divider"></li>
 							<!--
@@ -90,7 +90,7 @@
 								<li><a href="/account">Dashboard</a></li>
 								<li><a href="/account/edit">Edit Profile</a></li>
 								<li><a href="/account/listings">View Current Listings</a></li>
-								<li><a href="#">Payment</a></li>
+								<li><a href="/account/payment">Payment</a></li>
 								<li><a href='/account/logout'>Logout</a></li>
 								<li class="divider"></li>
 							</ul>

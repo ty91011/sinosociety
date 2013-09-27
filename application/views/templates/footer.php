@@ -153,7 +153,7 @@
       <div class="row">
 
         <div class="large-6 columns">
-            <p>&copy; Copyright no one at all. Go to town.</p>
+            <p>&copy; Copyright 2013 SinoSociety</p>
         </div>
 
         <div class="large-6 columns">

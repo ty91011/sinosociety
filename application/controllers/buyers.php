@@ -22,6 +22,11 @@ class Buyers extends CI_Controller
 	$this->load->view("buyers/index");
 	$this->load->view("templates/footer");
     }
+    
+    public function search()
+    {
+	
+    }
    
 }
 
